@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 var web3 = require('web3');
 var config = require('../config.json');
-var HDWalletProvider = require('truffle-hdwallet-provider');
+var HDWalletProvider = require('@truffle/hdwallet-provider');
 
 let provider = new HDWalletProvider([config.privateKey], config.rpc, 0, 1);
 var web3js = new web3(provider);

@@ -8,10 +8,10 @@
   "dependencies": {
     "cookie-parser": "~1.4.5",
     "debug": "~2.6.9",
-    "@truffle/hdwallet-provider": "^1.0.34",
+    "@truffle/hdwallet-provider": "^1.0.40",
     "express": "~4.17.1",
-    "http-errors": "~1.7.3",
+    "http-errors": "~1.8.0",
     "morgan": "~1.10.0",
-    "web3": "^1.2.7"
+    "web3": "^1.2.11"
   }
 }

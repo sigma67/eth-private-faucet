@@ -15,8 +15,8 @@ router.get('/:to',async (req,res) => {
   }
   let amount = web3.utils.toWei(config.amount)
   let balance = await web3js.eth.getBalance(toAddress);
-  if(balance >= amount){
-    res.send("You already have enough ETH");
+  if((balance.length >= amount.length) && (balance >= amount)){
+    res.send("You already have enough ETH: " + balance + ". Payout: " + amount);
     return;
   }
 

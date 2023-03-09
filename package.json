@@ -10,7 +10,7 @@
     "debug": "~2.6.9",
     "@truffle/hdwallet-provider": "^1.0.40",
     "express": "~4.17.1",
-    "http-errors": "~1.8.0",
+    "http-errors": "~2.0.0",
     "morgan": "~1.10.0",
     "web3": "^1.2.11"
   }

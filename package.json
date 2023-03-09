@@ -6,7 +6,7 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
-    "cookie-parser": "~1.4.5",
+    "cookie-parser": "~1.4.6",
     "debug": "~2.6.9",
     "@truffle/hdwallet-provider": "^1.0.40",
     "express": "~4.17.1",
